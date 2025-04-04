@@ -14,7 +14,7 @@ The system consists of the following components:
 
 ## Prerequisites
 
-- Docker and Docker Compose
+- Docker with Compose plugin
 - A GTFS Realtime feed URL (TransLink SEQ feed is already configured)
 
 ## Setup
@@ -42,7 +42,13 @@ cp backend/geofencing-service/.env.example backend/geofencing-service/.env
 4. Start the services:
 
 ```bash
-docker-compose up -d
+docker compose up -d
+```
+
+Or use the provided script:
+
+```bash
+./start.sh
 ```
 
 ## Usage
