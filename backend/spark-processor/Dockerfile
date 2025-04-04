@@ -2,9 +2,9 @@ FROM bitnami/spark:latest
 
 USER root
 
-# Install Python dependencies
+# Install system dependencies including GEOS for Shapely
 RUN apt-get update && \
-    apt-get install -y python3-pip && \
+    apt-get install -y python3-pip libgeos-dev binutils libproj-dev gdal-bin && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 

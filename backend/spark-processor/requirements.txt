@@ -1,4 +1,4 @@
 pyspark==3.4.1
 kafka-python==2.0.2
-shapely==2.0.1
+shapely==1.8.5
 python-dotenv==1.0.0
