@@ -1,0 +1,62 @@
+[
+  {
+    "id": "brisbane_cbd",
+    "name": "Brisbane CBD",
+    "description": "Brisbane Central Business District",
+    "coordinates": [
+      [153.0167, -27.471],
+      [153.034, -27.471],
+      [153.034, -27.457],
+      [153.0167, -27.457],
+      [153.0167, -27.471]
+    ]
+  },
+  {
+    "id": "southbank",
+    "name": "South Bank",
+    "description": "South Bank cultural and entertainment precinct",
+    "coordinates": [
+      [153.0167, -27.485],
+      [153.03, -27.485],
+      [153.03, -27.471],
+      [153.0167, -27.471],
+      [153.0167, -27.485]
+    ]
+  },
+  {
+    "id": "fortitude_valley",
+    "name": "Fortitude Valley",
+    "description": "Fortitude Valley entertainment district",
+    "coordinates": [
+      [153.03, -27.457],
+      [153.045, -27.457],
+      [153.045, -27.445],
+      [153.03, -27.445],
+      [153.03, -27.457]
+    ]
+  },
+  {
+    "id": "roma_street",
+    "name": "Roma Street Station",
+    "description": "Roma Street Transit Center",
+    "coordinates": [
+      [153.015, -27.467],
+      [153.022, -27.467],
+      [153.022, -27.463],
+      [153.015, -27.463],
+      [153.015, -27.467]
+    ]
+  },
+  {
+    "id": "garden_city",
+    "name": "Garden City",
+    "description": "Garden City Shopping Centre and Bus Station",
+    "coordinates": [
+      [153.08, -27.565],
+      [153.088, -27.565],
+      [153.088, -27.558],
+      [153.08, -27.558],
+      [153.08, -27.565]
+    ]
+  }
+]

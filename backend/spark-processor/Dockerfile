@@ -1,0 +1,18 @@
+FROM bitnami/spark:latest
+
+USER root
+
+# Install Python dependencies
+RUN apt-get update && \
+    apt-get install -y python3-pip && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD ["spark-submit", "--master", "spark://spark-master:7077", "--packages", "org.apache.spark:spark-sql-kafka-0-10_2.12:3.4.1", "geofencing_processor.py"]
