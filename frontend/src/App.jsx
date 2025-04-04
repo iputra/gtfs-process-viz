@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { addDataToMap, updateMap } from "kepler.gl/actions";
+import { addDataToMap } from "kepler.gl/actions";
 import { processCsvData } from "kepler.gl/processors";
 import KeplerMap from "./components/KeplerMap";
 import ControlPanel from "./components/ControlPanel";
